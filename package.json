@@ -1,0 +1,24 @@
+{
+  "name": "sealoger",
+  "version": "1.0.0",
+  "description": "Sealoger is powerful library that help you organizing your logs in one place and its prettier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rayer2115/Sealoger.git"
+  },
+  "keywords": [
+    "loger",
+    "sealoger",
+    "logs"
+  ],
+  "author": "Rayer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rayer2115/Sealoger/issues"
+  },
+  "homepage": "https://github.com/Rayer2115/Sealoger#readme"
+}
