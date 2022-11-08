@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/Rayer2115/Sealoger/issues"
   },
-  "homepage": "https://github.com/Rayer2115/Sealoger#readme"
+  "homepage": "https://github.com/Rayer2115/Sealoger#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "events": "^3.3.0",
+    "moment": "^2.29.4"
+  },
+  "type": "module"
 }
