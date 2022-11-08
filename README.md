@@ -39,6 +39,21 @@ And then we can use a package like
 logger.log(`It's a test`)
 ```
 
+An event handler is builded-in
+
+```js
+logger.on(`event`, (message) => {
+    // any to do
+})
+```
+
+All functions:
+- log
+- success
+- info
+- error
+- on
+
 ## Authors
 
 - [@Rayer2115](https://www.github.com/Rayer2115)

@@ -1,6 +1,6 @@
 {
   "name": "sealoger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sealoger is powerful library that help you organizing your logs in one place and its prettier",
   "main": "index.js",
   "scripts": {
