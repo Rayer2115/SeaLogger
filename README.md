@@ -16,7 +16,7 @@ A powerful library that help you organizing your logs in one place and its prett
 Install **SeaLogger** with npm
 
 ```bash
-  npm install SeaLogger@latest
+  npm install sealogger@latest
 ```
     
 ## How to use
@@ -42,7 +42,7 @@ logger.log(`It's a test`)
 An event handler is builded-in
 
 ```js
-logger.on(`event`, (message) => {
+logger.on(`error`, (message) => {
     // any to do
 })
 ```

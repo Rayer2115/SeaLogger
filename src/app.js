@@ -91,6 +91,18 @@ class Logger extends EventEmitter {
                 throwError(err)
         })
     }
+
+    warn(message) {
+        if (!message) 
+            throwError(`You must set some message to log`)
+        
+        this.console.log(chalk.gray(time), chalk.bgYellowBright.bold(` WARN `), message)
+
+        fs.appendFile(`${this.path}/latest.log`, `${time} WARN ${message}\n`, (err) => {
+            if (err)
+                throwError(err)
+        })
+    }
 }
 
 export default Logger
